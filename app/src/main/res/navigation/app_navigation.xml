@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/app_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.munir.navigation.HomeFragment"
+        android:label="Home" />
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.munir.navigation.NewsFragment"
+        android:label="News" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.munir.navigation.ProfileFragment"
+        android:label="Profile" />
+</navigation>
